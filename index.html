@@ -7,22 +7,96 @@
     <link rel="stylesheet" href="./static/standard-styles.css">
 </head>
 <body>
+
+    <!-- The front page with cards -->
+    <div class="top-container">
+    <div class="title">
+        <h1>RE:THINK Lejlighedssangen!</h1>
+    </div>
     <div class="card">
         <div class="description">
             <div class="text">
                 <h2>Begivenheden</h2>
                 Hvad er den gode begivenhed? <br>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis id provident suscipit quas inventore amet vitae nesciunt dolores esse corporis placeat est nam, corrupti illum iure? Alias voluptatibus consequatur fuga?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsam at quis, id alias dolor quam in mollitia eos est, dignissimos veniam temporibus recusandae obcaecati corrupti! Dicta rerum nihil quae?
+            </div>
+            <button onclick="show_post(1)">
+                Læs mere
+            </button>
+        </div>
+        <div class="image-container">
+            <img src="https://us.123rf.com/450wm/keantian/keantian1709/keantian170900118/86248988-black-haired-woman-with-braided-hair-photographed-herself-with-a-hand-in-the-early-morning-orange.jpg?ver=6" alt="">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="description">
+            <div class="text">
+                <h2>Melodi & Rytme</h2>
+                Hvad er den gode sang? <br>
             </div>
             <button>
                 Læs mere
             </button>
         </div>
         <div class="image-container">
-            <img src="https://media.istockphoto.com/id/1341354743/photo/%EF%BD%84%EF%BD%8F%EF%BD%87.jpg?s=1024x1024&w=is&k=20&c=rugRF7MW_Ie5_n_kvrqkdqh6vKHukqPu3k4j8baE1IY=" alt="">
+            <img src="https://media.istockphoto.com/id/1280339057/photo/young-woman-relaxing-at-home-and-listening-music.jpg?s=1024x1024&w=is&k=20&c=4EZhdzJ7SoJY8nAHiWjfBnqkdXq2ywUnOnj7ZrILByc=" alt="">
         </div>
     </div>
+
+    <div class="card">
+        <div class="description">
+            <div class="text">
+                <h2>Tekst</h2>
+                Hvad er den gode tekst? <br>
+            </div>
+            <button>
+                Læs mere
+            </button>
+        </div>
+        <div class="image-container">
+            <img src="https://media.istockphoto.com/id/1142904876/photo/hands-writing-on-a-vintage-typewriter.jpg?s=1024x1024&w=is&k=20&c=zViRqlc6KerBVs07umbxLtvtNeNN2gbhkQGuEPxsHEI=" alt="">
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="description">
+            <div class="text">
+                <h2>Præsentation</h2>
+                Hvad er den gode præsentation? <br>
+            </div>
+            <button>
+                Læs mere
+            </button>
+        </div>
+        <div class="image-container">
+            <img src="https://media.istockphoto.com/id/476806603/photo/performer-standing-with-arms-outstretched-on-stage-in-theater.jpg?s=1024x1024&w=is&k=20&c=TFRbxj6dVTPoYi2E_kD1G1cNYB1RL9VcqJvnkazpW84=" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="post" id="post1">
+    <div class="post_header">
+        X
+    </div>
+
+    <div class="post_content">
+        <h1>Den Gode Begivenhed</h1>
+        <br>
+        Hvad er den gode begivenhed til en lejlighedssang? Det skal vi undersøge
+        <br><br>
+        Den klassiske kunne f.eks. være et guld-bryllup, som sangen Anna & Erhardt herunder.
+        <br><br>
+        <div class="video-container">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/EzT58JfYrk4?si=hINOmDPEpX5feLwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <br><br>
+
+        Berthel Haarder har også <a href="https://www.dr.dk/nyheder/kultur/anbefalinger/drop-jeg-er-havren-bertel-haarders-7-tips-til-skrive-bedre-festsange">gode tips</a>
+        
+    </div>
+</div>
+
+<script src="static/java.js"></script>
 </body>
 </html>
 
