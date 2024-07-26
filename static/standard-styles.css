@@ -48,6 +48,22 @@ a:hover {
     margin-bottom: 10%;
 }
 
+.text-example {
+    width: 90%;
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    background-color: var(--color1);
+    /* border: 0.5rem solid var(--color2); */
+}
+
+.text-example > p {
+    text-align: left;
+}
+
 .title {
 
     text-align: center;
