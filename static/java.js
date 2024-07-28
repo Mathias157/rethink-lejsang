@@ -17,6 +17,7 @@ function show_post(number) {
         window.location.href
     )
 
+    
     // Make back button another way to go back
     window.addEventListener('popstate', function() {
         go_back(number)
@@ -26,6 +27,9 @@ function show_post(number) {
     header.addEventListener('click', function() {
         go_back(number)
     })
+
+    // Scroll to top of the page
+    window.scrollTo(0, 0);
 }
 
 function go_back(number) {
@@ -37,4 +41,7 @@ function go_back(number) {
     post.style.display = 'none'
     document.body.style.backgroundColor = "white"
     top_container.style.display =  'block'
+    
+    // Scroll to top of the page
+    window.scrollTo(0, 0);
 }
