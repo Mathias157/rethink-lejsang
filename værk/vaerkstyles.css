@@ -19,9 +19,10 @@ body {
 
 @media (max-width: 750px) {
     .song-container {
-        width: 85%;
-        padding-left: 7.5%;
-        padding-right: 7.5%;
+        font-size: small;
+        width: 95%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
         margin-top: 10%;
     }
 }
