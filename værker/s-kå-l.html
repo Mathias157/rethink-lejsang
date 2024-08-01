@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S-KÅ-L</title>
+    <link rel="stylesheet" href="./vaerkstyles.css">
+    <link rel="stylesheet" href="../static/standard-styles.css">
+</head>
+<body>
+    <div class="song-container">
+        <div class="song">
+            
+            <h1>S-KÅ-L</h1>
+            <em>Melodi: <a href="https://www.toglyde.dk/lyde/iclyd.mp3">DSB</a></em> 
+            <br><br>
+            <button onclick="playAudio()">
+                S-KÅ-L
+            </button>
+        </div>
+    </div>
+    <script>
+        var snd = new Audio("S-KÅ-L.mp3");
+
+        function playAudio() {
+            snd.currentTime = 0;
+            snd.play();
+        }
+    </script>
+</body>
+</html>
